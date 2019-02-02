@@ -34,6 +34,7 @@ public class LoginTest {
 	public void verifyLoginPageTitleTest(){
 		String title = loginPage.getLoginPageTitle();
 		System.out.println("login page title is: "+ title);
+		System.out.println("test");
 		Assert.assertEquals(title, Constants.LOGIN_PAGE_TITLE);
 	}
 	
