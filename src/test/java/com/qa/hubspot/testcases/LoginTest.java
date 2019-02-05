@@ -57,6 +57,8 @@ public class LoginTest {
 	
 	public void password(){
 		System.out.println("password");
+		System.out.println("password");
+		System.out.println("password");
 	}
 	@AfterMethod
 	public void tearDown(){
